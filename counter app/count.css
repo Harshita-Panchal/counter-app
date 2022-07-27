@@ -1,0 +1,42 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+
+.counter{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    background-color: grey;
+    text-align: center;
+}
+#count{
+    margin-left: 90px;
+    font-size: 40px;
+    height: 50px;
+    width: 70px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+#reset{
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    height: 50px;
+    width: 70px;
+    padding: 10px 15px;
+    color:red;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: lightpink;
+}
